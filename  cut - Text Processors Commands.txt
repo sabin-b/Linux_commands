@@ -1,0 +1,19 @@
+
+# cut command:
+    - cut --version
+
+    - cut -c1 filename             => first letter only print
+
+    - cut -c1,2,3 filename         => specific letter only print
+
+    - cut -c1-5 filename           => specific range based print
+
+    - cut -c1-5.6-8 filename       => specific range based print
+
+    - cut -b1-3 filename           => byte based
+
+    - cut -d: -f 6 /etc/passwd     => specified place only print
+    
+    - cut -d: -f 6-7 /etc/passwd   => specified place only print
+
+    - ls -l | cut -c2-4            => specified place only print

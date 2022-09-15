@@ -1,0 +1,75 @@
+- find . -name "abc"
+- locate filename
+- passwd userid
+- wildcard (*,?,[])
+- soft link (ln -s /home/devops/hulk)
+- hard link (ln /home/devops/hulk)
+
+
+file_permissions (using letters):
+	- options(  u -user, g - group, o - others , a - all)  and ( +, -)
+	- chmod  u-rw files1
+	- chmod a+rwx files1
+
+
+file_permissions (using numbers):
+	- 0 - no permissions
+	- 1 - execute
+	- 2 - write
+	- 3 - write and execute
+	- 4 - read
+	- 5 - read and execute
+	- 6 - read and write
+	- 7 - read , write, execute
+	
+	
+chown_chgrp_command:
+	- chown  -R root:root file
+	
+	
+setfacl_getfacl_cd ..(specific_access_commands):
+	- setfacl -m u:username:rwx /home/devops/apple (specfic user access)
+	- setfacl -m g:groupname:rwx /home/devops/apple (specfic group access)
+	- setfacl -Rm "entry" /home/devops/apple (full access)
+	- setfacl -x u:username /home/devops/apple (remove the access from specific user)
+	- setfacl -b "entry" /home/devops/apple (remove access)
+	
+	
+help_commands:
+	- whatis commandname
+	- man commandname
+	- commandname --help
+	
+adding_text_files:
+	- echo " hlo " > jerry
+	- echo " hlo nanba" >> jerry
+	
+
+
+TEE_command:
+	- echo " hlo nanba " | tee hlo.txt
+	- echo " hlo nanba " | tee -a  hlo.txt  (a -append)
+	
+	
+file_maintenance_command: ( cp, rm, mv, mkdir, rmdir) - cp -R root folder sub folder
+
+
+file_display_commands: ( cat,less,more,head,tail)
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+
+
+
+

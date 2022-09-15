@@ -1,0 +1,12 @@
+
+# cut
+
+# awk
+
+# grep and egrep
+
+# sort
+
+# uniq
+
+# wc
