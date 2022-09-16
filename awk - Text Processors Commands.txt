@@ -1,0 +1,21 @@
+
+# awk command:
+    - awk --version
+
+    - awk '{print $1}' filename            => first block of letter print
+
+    - awk '{print $2}' filename            => second block of letter print
+
+    - ls -l | awk '{print $2,$3}'          => specific range based print
+
+    - ls -l | awk '{print $NF}'            => specific range based print
+
+    - awk '/jerry/ {print}' filename       => search a word
+
+    - awk -F: '{print}' /etc/passwd        => specified place only print
+    
+    - echo "hello Tom" | awk '{$2 ="adam" ; print $0}'        => specified replace only print
+
+    - awk 'length($0)' > 15 filename       => length based view
+
+    - ls -l | awk '{if($9 == 'seinfield')print $0;}' => specified place only print
