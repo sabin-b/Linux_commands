@@ -1,0 +1,19 @@
+# example
+
+# one key word search at a time
+
+- grep seinfeld seinfeld
+
+- grep -c seinfeld seinfeld  = count of the search words
+
+-  grep -i Seinfeld seinfield = ignore case sensitive 
+
+- grep -n -i Seinfeld seinfield  = which line this word is available
+
+- grep -v 
+
+
+
+# two key word search at a time
+
+- 
