@@ -1,0 +1,17 @@
+sort command
+
+- sort file 
+
+- sort -r file
+
+- sort -k2 filename
+
+
+
+## uniq command
+
+- sort filename | uniq
+
+- sort filename | uniq -c = how much repeated line same text avaliable in the file
+
+- sort filename | uniq -d =  repeated text only show
