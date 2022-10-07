@@ -1,0 +1,9 @@
+# wc-command
+
+# wc -l = line count
+
+# wc -w = words count
+
+# wc -c = bytes count
+
+# 
