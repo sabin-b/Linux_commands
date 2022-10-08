@@ -1,0 +1,13 @@
+# Tar && gzip,gunzip
+
+# tar -cvf sabin.tar .   - archive
+
+
+# tar -xvf sabin.tar .   - extract
+
+
+# gzip sabin.tar   - archive the folder again
+
+
+# gzip -d sabin.tar   - extract
+

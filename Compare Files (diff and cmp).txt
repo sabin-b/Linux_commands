@@ -1,0 +1,3 @@
+# diff (line by line) && cmp (byte by byte)
+
+# 
