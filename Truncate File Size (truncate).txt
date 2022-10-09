@@ -1,0 +1,5 @@
+# Truncate Command:
+
+ - Truncate -s 40 filename
+
+ - 
