@@ -1,0 +1,9 @@
+#  x - delete single letter
+
+#  D - delete whole line
+
+#  u - undo
+
+#  i - insert
+
+#  wq! - write and save
